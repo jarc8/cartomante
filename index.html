@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>poeing</title>
+        <style>
+            body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            }
+
+            .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            }
+
+            #list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            min-width: 200px;
+            text-align: center;
+            }
+
+            .item {
+            display: none;
+            font-size: 48px;
+            font-weight: bold;
+            }
+
+            .item.active {
+            display: block;
+            }
+
+            .buttons {
+            display: flex;
+            gap: 20px;
+            }
+
+            button {
+            font-size: 28px;
+            padding: 6px 12px;
+            cursor: pointer;
+            }
+        </style>
+    </head>
+<body>
+
+<div class="container">
+  <ul id="list"></ul>
+
+  <div class="buttons">
+    <button id="left">◀</button>
+    <button id="right">▶</button>
+  </div>
+</div>
+
+<script>
+  let items = [];
+  let index = 0;
+
+  // load items from file
+  fetch('items.txt')
+    .then(response => response.text())
+    .then(data => {
+      //items = data.split('\n').filter(line => line.trim().length > 0);
+      items = data.split(/\r?\n\s*\r?\n/).filter(line => line.trim().length > 0);
+
+      const list = document.getElementById('list');
+
+      items.forEach((text, i) => {
+        const li = document.createElement('li');
+        li.className = 'item';
+        li.textContent = text;
+        if (i === 0) li.classList.add('active');
+        list.appendChild(li);
+      });
+
+      // start arrow buttons after loading
+      initButtons();
+    });
+
+  function initButtons() {
+    const listItems = document.querySelectorAll('#list .item');
+
+    document.getElementById("right").onclick = function () {
+      listItems[index].classList.remove("active");
+      index = (index + 1) % listItems.length;
+      listItems[index].classList.add("active");
+    };
+
+    document.getElementById("left").onclick = function () {
+      listItems[index].classList.remove("active");
+      index = (index - 1 + listItems.length) % listItems.length;
+      listItems[index].classList.add("active");
+    };
+  }
+</script>
+
+</body>
+</html>
