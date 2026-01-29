@@ -1,27 +1,18 @@
 
       find & kill hillock
-      enter town img:town  lioneye's watch
+      enter town town  lioneye's watch
     
     
       tarkleigh: enemyatthegate
       enter   the coast
     
     
-      go → / ↗ for img:waypoint || enter   the mud flats
-       if right img:arena color:ffffffedge goes far ↘ go far ↓
+      go → / ↗ for waypoint  enter   the mud flats
+       if right  :edge goes far ↘ go far ↓
     
     
-      follow streams for img:quest quest:glyphs
-      enter img:quest   the submerged passage
-    
-    
-       
-        
-        
-      
-       
-        img:waypoint to   the coast
-      
+      follow streams for !quest! glyphs
+      enter !quest!   the submerged passage
     
     
        
@@ -29,7 +20,7 @@
         
       
        
-        enter a  the tidal island
+        waypoint to   the coast
       
     
     
@@ -38,10 +29,19 @@
         
       
        
-        kill hailrake for quest:med.chest lvl:
+        enter  the tidal island
+      
+    
+    
+       
+        
+        
+      
+       
+        kill hailrake for med.chest lvl:
          follow wall ← / ↙. if there's a
          ledge follow wall → / ↘ instead
-        color:ccffrelog: town  lioneye's watch
+        relog: town  lioneye's watch
       
     
     
@@ -52,7 +52,7 @@
        
         tarkleigh: breakingsomeeggs breakingsomeeggs
         nessa: mercymission
-        img:waypoint to   the submerged passage
+        waypoint to   the submerged passage
       
     
     
@@ -61,8 +61,8 @@
         
       
        
-        find bridge or img:arena fl.depths place img:portal
-        cross the bridge || enter   the ledge
+        find bridge or  fl.depths place portal
+        cross the bridge  enter   the ledge
       
     
     
@@ -71,9 +71,9 @@
         no
       
        
-        color:ffffbuygems in img:hideout || img:waypoint to color:fecsubm.passage || lilly: mercymission breakingsomeeggs breakingsomeeggs  only shows with imported pob
-        find bridge or img:arena fl.depths place img:portal
-        cross the bridge || enter   the ledge
+        :fbuygems in hideout  waypoint to csubm.passage  lilly: mercymission breakingsomeeggs breakingsomeeggs  
+        find bridge or  fl.depths place portal
+        cross the bridge  enter   the ledge
       
     
     
@@ -84,8 +84,8 @@
       follow edge to   the lower prison
     
     
-      img:waypoint to town img:town  lioneye's watch
-      enter img:portal to   the submerged passage
+      waypoint to town town  lioneye's watch
+      enter portal to   the submerged passage
     
     
       find & enter   the flooded depths
@@ -93,13 +93,13 @@
     
     
       find & kill dweller essence
-       img:arena start & arena:dweller : opposite corners
-      color:ccffrelog: town  lioneye's watch
+        start & arena:dweller : opposite corners
+      relog: town  lioneye's watch
     
     
       tarkleigh: book
       nessa: thecagedbrute
-      img:waypoint to   the lower prison
+      waypoint to   the lower prison
     
     
        
@@ -107,7 +107,7 @@
         
       
        
-        complete the img:lab trial
+        complete the lab trial
          often ↗ in the zone
         enter   the upper prison
       
@@ -124,45 +124,45 @@
     
       optional: find chemist's strongbox
        can drop quicksilver flask
-      kill brutus lvl:-
-      color:ccffrelog: town  lioneye's watch
+      kill brutus 
+      relog: town  lioneye's watch
     
     
       tarkleigh: thecagedbrute
-      optional: spare quicksilver? color:ccffvendor:
+      optional: spare quicksilver? vendor:
        qs-flask + aug + ms boots
-      img:waypoint to   prisoner's gate
+      waypoint to   prisoner's gate
     
     
       ledge near road leads to passage
       follow wall to   the ship graveyard
     
     
-      follow cliff find img:arena color:ccffcavern & img:arena cave :
-      hint - if color:ccffcavern st: img:in-out color:fffffffor img:waypoint || enter color:ccffcave
-      hint - if color:ccffcave st: place img:portal || enter color:ccffcavern || img:waypoint to img:town
-      enter img:portal  enter a  ship graveyard cave
+      follow cliff find  cavern &  cave :
+      hint - if cavern st: in-out :for waypoint  enter cave
+      hint - if cave st: place portal  enter cavern  waypoint to town
+      enter portal  enter a  ship graveyard cave
     
     
-      find img:quest quest:slavegirl for quest:allflame
-      hint - img:arena start & quest:girl : opposite corners
-      hint - if you start img: go far ↙ first
+      find !quest! slavegirl for allflame
+      hint -  start & girl : opposite corners
+      hint - if you start  go far ↙ first
       enter   the ship graveyard
     
     
       kill fairgraves
-      color:ccffrelog: town  lioneye's watch
+      relog: town  lioneye's watch
     
     
       bestel: book
       nessa: thesiren'scadence
-      img:waypoint to   the cavern of wrath
+      waypoint to   the cavern of wrath
     
     
       follow water to   the cavern of anger
     
     
-      follow water to img:arena lair lvl:-
+      follow water to  lair lvl:
       kill merveil enter   the southern forest
     
   
@@ -174,20 +174,20 @@
       go ↗ to   the old fields
     
     
-      optional: img:quest color:feflask / belt : find img:arena a place img:portal  the den
+      optional: !quest! flask / belt : find  a place portal  the den
       follow road to   the crossroads
     
     
-      follow road activate the img:waypoint
-      optional: img:quest color:feflask / belt : img:waypoint to color:fectown enter img:portal
+      follow road activate the waypoint
+      optional: !quest! flask / belt : waypoint to ctown enter portal
       hint - enter a kill whitebeast  the den
-      hint - color:ccffrelog || img:quest yeena || img:waypoint to   the crossroads
+      hint - relog  !quest! yeena  waypoint to   the crossroads
       go ↖ to   the chamber of sins level 
     
     
       enter   the chamber of sins level 
       hint - reach central room
-      hint - img:waypoint points to the exit
+      hint - waypoint points to the exit
     
     
        
@@ -195,11 +195,11 @@
         
       
        
-        complete the img:lab trial
-        kill fidelitas || take img:quest quest:gem lvl:-
-        hint - color:ccfflongcorridor leads to arena
-        hint - img:arena start & color:ccffcorridor: opposite corners
-        color:ccffrelog: town  the forest encampment
+        complete the lab trial
+        kill fidelitas  take !quest! gem 
+        hint - longcorridor leads to arena
+        hint -  start & corridor: opposite corners
+        relog: town  the forest encampment
       
     
     
@@ -208,15 +208,15 @@
         no
       
        
-        kill fidelitas || take img:quest quest:gem lvl:-
-        hint - color:ccfflongcorridor leads to arena
-        hint - img:arena start & color:ccffcorridor: opposite corners
-        color:ccffrelog: town  the forest encampment
+        kill fidelitas  take !quest! gem 
+        hint - longcorridor leads to arena
+        hint -  start & corridor: opposite corners
+        relog: town  the forest encampment
       
     
     
       greust: intrudersinblack
-      img:waypoint to   the crossroads
+      waypoint to   the crossroads
     
     
       go ↘ to   the fellshrine ruins
@@ -230,8 +230,8 @@
         
       
        
-        complete img:lab || enter   the crypt level 
-         img:arena start & img:arena exit: opposite corners
+        complete lab  enter   the crypt level 
+          start &  exit: opposite corners
       
     
     
@@ -241,31 +241,31 @@
       
        
         enter   the crypt level 
-         img:arena start & img:arena exit: opposite corners
+          start &  exit: opposite corners
       
     
     
-      find img:quest quest:altar take quest:goldenhand
-       img:arena start & quest:altar: opposite corners
-      color:ccffrelog: town  the forest encampment
+      find !quest! altar take goldenhand
+        start & altar: opposite corners
+      relog: town  the forest encampment
     
     
       yeena: book
       go ↙ to   the riverways
     
     
-      follow road get the img:waypoint
+      follow road get the waypoint
       follow road to   the western forest
     
     
-      follow road get the img:waypoint
+      follow road get the waypoint
       enter   the weaver's chambers
-       search the side without img:waypoint
+       search the side without waypoint
     
     
-      kill weaver for quest:spike lvl:
+      kill weaver for spike lvl:
        go ←. if blocked go → / ↗
-      color:ccffrelog: town  the forest encampment
+      relog: town  the forest encampment
     
     
        
@@ -278,7 +278,7 @@
       
        
         silk: sharpandcruel
-        img:waypoint to   the crossroads
+        waypoint to   the crossroads
       
     
     
@@ -305,9 +305,9 @@
       
        
         optional: jewelry chest +  rogue exiles
-         follow road to img:waypoint look for ruins
-        follow road kill kraityn for quest:amulet
-        color:ccffrelog: town  the forest encampment
+         follow road to waypoint look for ruins
+        follow road kill kraityn for amulet
+        relog: town  the forest encampment
       
     
     
@@ -319,7 +319,7 @@
       
        
         silk: sharpandcruel
-        img:waypoint to   the riverways
+        waypoint to   the riverways
       
     
     
@@ -331,7 +331,7 @@
         
       
        
-        img:waypoint to   the riverways
+        waypoint to   the riverways
       
     
     
@@ -358,8 +358,8 @@
         
       
        
-        kill oak for quest:amulet
-        find img:waypoint:   the western forest
+        kill oak for amulet
+        find waypoint:   the western forest
          usually ↗ or ↖ rarely ↙
       
     
@@ -371,7 +371,7 @@
         
       
        
-        img:waypoint to   the western forest
+        waypoint to   the western forest
       
     
     
@@ -385,9 +385,9 @@
       
        
         go ↓ to torch on the road
-        follow side path: kill alira for quest:amulet
-        follow main road: kill arteri for quest:emblem
-        click img:quest quest:seal || color:ccffrelog: town  the forest encampment
+        follow side path: kill alira for amulet
+        follow main road: kill arteri for emblem
+        click !quest! seal  relog: town  the forest encampment
       
     
     
@@ -399,9 +399,9 @@
       
        
         go ↓ to torch on the road
-        follow side path: help color:ffalira for quest:apex
-        follow main road: kill arteri for quest:emblem
-        click img:quest quest:seal || color:ccffrelog: town  the forest encampment
+        follow side path: help alira for apex
+        follow main road: kill arteri for emblem
+        click !quest! seal  relog: town  the forest encampment
       
     
     
@@ -412,8 +412,8 @@
         
       
        
-        eramir: quest:theapex
-        img:waypoint to town img:town  lioneye's watch
+        eramir: theapex
+        waypoint to town town  lioneye's watch
       
     
     
@@ -426,7 +426,7 @@
         
       
        
-        img:waypoint to town img:town  lioneye's watch
+        waypoint to town town  lioneye's watch
       
     
     
@@ -438,7 +438,7 @@
       
        
         bestel: book
-        img:waypoint to   the crossroads
+        waypoint to   the crossroads
       
     
     
@@ -461,9 +461,9 @@
       
        
         optional: jewelry chest +  rogue exiles
-         follow road to img:waypoint look for ruins
-        follow road help color:ffkraityn for quest:apex
-        color:ccffrelog: town  lioneye's watch
+         follow road to waypoint look for ruins
+        follow road help kraityn for apex
+        relog: town  lioneye's watch
       
     
     
@@ -475,7 +475,7 @@
       
        
         bestel: thewayforward
-        img:waypoint to   the riverways
+        waypoint to   the riverways
       
     
     
@@ -498,8 +498,8 @@
         
       
        
-        find & help color:ffoak for quest:apex
-        clear img:quest quest:roots enter   the vaal ruins
+        find & help oak for apex
+        clear !quest! roots enter   the vaal ruins
          usually ↗ or ↖ rarely ↙
       
     
@@ -513,7 +513,7 @@
       
        
         bestel: book
-        img:waypoint to   the wetlands
+        waypoint to   the wetlands
       
     
     
@@ -524,7 +524,7 @@
         
       
        
-        img:waypoint to   the wetlands
+        waypoint to   the wetlands
       
     
     
@@ -537,7 +537,7 @@
         
       
        
-        clear img:quest quest:roots enter   the vaal ruins
+        clear !quest! roots enter   the vaal ruins
       
     
     
@@ -546,8 +546,8 @@
       hint - rare: zone is an outward spiral
     
     
-      go ↖ past img:waypoint || enter   the caverns
-      hint - if you're pushed ↙ after img:waypoint go far ↖
+      go ↖ past waypoint  enter   the caverns
+      hint - if you're pushed ↙ after waypoint go far ↖
       hint - otherwise follow → edge
     
     
@@ -556,10 +556,10 @@
         
       
        
-        reach the img:waypoint
-        get img:craft || enter   the ancient pyramid
+        reach the waypoint
+        get craft  enter   the ancient pyramid
         hint - both can be found in corners
-        hint - img:craft: secret door with switches
+        hint - craft: secret door with switches
       
     
     
@@ -568,7 +568,7 @@
         no
       
        
-        reach the img:waypoint
+        reach the waypoint
         enter   the ancient pyramid
          search in the corners
       
@@ -579,9 +579,9 @@
         
       
        
-        find img:arena apex kill oversoul lvl:-
-         st img:arena color:ffffffin random then opposite corners
-        get img:craft || color:ccffrelog || img:waypoint to   the city of sarn
+        find  apex kill oversoul 
+         st  :in random then opposite corners
+        get craft  relog  waypoint to   the city of sarn
       
     
     
@@ -590,9 +590,9 @@
         no
       
        
-        find img:arena apex kill oversoul lvl:-
-         st img:arena color:ffffffin random then opposite corners
-        color:ccffrelog || img:waypoint to   the city of sarn
+        find  apex kill oversoul 
+         st  :in random then opposite corners
+        relog  waypoint to   the city of sarn
       
     
   
@@ -603,7 +603,7 @@
         
       
        
-        go ↘ for img:craft || go ↖ talk to img:quest clarissa
+        go ↘ for craft  go ↖ talk to !quest! clarissa
         go ↙ to town  the sarn encampment
       
     
@@ -613,7 +613,7 @@
         no
       
        
-        go ↖ talk to img:quest clarissa
+        go ↖ talk to !quest! clarissa
         go ↙ to town  the sarn encampment
       
     
@@ -622,9 +622,9 @@
     
     
       find & enter   the crematorium
-      hint - img:arena start & img:arena exit: opposite corners
-      hint - sometimes you find a path to color:feccrema
-       in the color:aquacorner not color:feccrema itself
+      hint -  start &  exit: opposite corners
+      hint - sometimes you find a path to ccrema
+       in the :aquacorner not ccrema itself
     
     
        
@@ -632,9 +632,9 @@
         
       
        
-        get img:lab trial || kill piety || take img:quest quest:bracelet
-         img:lab & color:ffpiety: often in adjacent corners
-        color:ccffrelog: town  the sarn encampment
+        get lab trial  kill piety  take !quest! bracelet
+         lab & piety: often in adjacent corners
+        relog: town  the sarn encampment
       
     
     
@@ -643,23 +643,23 @@
         no
       
        
-        find & kill piety || take img:quest quest:bracelet
-         img:lab & color:ffpiety: often in adjacent corners
-        color:ccffrelog: town  the sarn encampment
+        find & kill piety  take !quest! bracelet
+         lab & piety: often in adjacent corners
+        relog: town  the sarn encampment
       
     
     
       maramoa: lostinlove
-      clarissa: quest:sewerkeys
+      clarissa: sewerkeys
       enter   the slums
     
     
-      open img:quest quest:grating || enter   the sewers  the sewers
+      open !quest! grating  enter   the sewers  the sewers
     
     
-      go ↖ for img:quest quest:bust || go ↗ for img:waypoint
-      find x img:quest quest:bust || go img: to   the marketplace
-       quest:ndbust in large room? quest:rd is ↖. else →
+      go ↖ for !quest! bust  go ↗ for waypoint
+      find x !quest! bust  go  to   the marketplace
+       ndbust in large room? rd is ↖. else →
     
     
        
@@ -667,7 +667,7 @@
         no
       
        
-        follow img: edge to img:waypoint
+        follow  edge to waypoint
         enter   the battlefront
          search in the corners
       
@@ -678,8 +678,8 @@
         
       
        
-        follow img: edge to img:waypoint
-        go img: to   the catacombs
+        follow  edge to waypoint
+        go  to   the catacombs
       
     
     
@@ -688,9 +688,9 @@
         
       
        
-        complete the img:lab trial || get img:craft
-         img:arena start & img:lab: adjacent corners
-        color:ccffrelog: town  the sarn encampment
+        complete the lab trial  get craft
+          start & lab: adjacent corners
+        relog: town  the sarn encampment
       
     
     
@@ -701,7 +701,7 @@
        
         hargan: book
          if lvl +: check for -links
-        img:waypoint to   the marketplace
+        waypoint to   the marketplace
       
     
     
@@ -715,13 +715,13 @@
       
     
     
-      color:ccffifyou'rebelowlvlcatchup
-      go ↖ / ← for img:waypoint || go ↙ for img:quest quest:spool
-      go ↖ / img: to  lvl:  the docks
+      ifyou'rebelowlvlcatchup
+      go ↖ / ← for waypoint  go ↙ for !quest! spool
+      go ↖ /  to  lvl:  the docks
     
     
-      follow edge for img:quest quest:sulphite
-      color:ccffrelog: town  the sarn encampment
+      follow edge for !quest! sulphite
+      relog: town  the sarn encampment
     
     
        
@@ -730,7 +730,7 @@
       
        
         hargan: book
-        img:waypoint to   the battlefront
+        waypoint to   the battlefront
       
     
     
@@ -739,11 +739,11 @@
         
       
        
-        img:waypoint to   the battlefront
+        waypoint to   the battlefront
       
     
     
-      go ↗ / img: to   solaris temple level 
+      go ↗ /  to   solaris temple level 
     
     
       enter   the solaris temple level 
@@ -754,8 +754,8 @@
         
       
        
-        find img:quest dialla: amulet  quest:talc
-        img:craft in img:arena lab || img:waypoint to   the sewers
+        find !quest! dialla: amulet  talc
+        craft in  lab  waypoint to   the sewers
       
     
     
@@ -764,22 +764,22 @@
         no
       
        
-        find img:quest dialla: amulet  quest:talc
-        img:waypoint to   the sewers
+        find !quest! dialla: amulet  talc
+        waypoint to   the sewers
       
     
     
-      burn img:quest quest:undyingblockage
+      burn !quest! undyingblockage
       enter   the ebony barracks
     
     
-      activate the img:waypoint
+      activate the waypoint
       go ↖ to kill generalgravicius
       go ↖ to   the lunaris temple level 
     
     
       enter   the lunaris temple level 
-      hint - initial color:ccffhalls point ↖ or ↗
+      hint - initial halls point ↖ or ↗
       hint - follow carpets + that direction
     
     
@@ -788,10 +788,10 @@
         no
       
        
-        find & kill piety for quest:key lvl:
-        hint - follow: color:ccffstairsup then single wagon.
-        hint - color:ccfflargegates l-shape or line lead to img:arena
-        color:ccffrelog: town  the sarn encampment
+        find & kill piety for key lvl:
+        hint - follow: stairsup then single wagon.
+        hint - largegates l-shape or line lead to 
+        relog: town  the sarn encampment
       
     
     
@@ -800,10 +800,10 @@
         
       
        
-        find & kill piety for quest:key lvl:
-        hint - follow: color:ccffstairsup then single wagon.
-        hint - color:ccfflargegates l-shape or line lead to img:arena
-        get img:craft || color:ccffrelog: town  the sarn encampment
+        find & kill piety for key lvl:
+        hint - follow: stairsup then single wagon.
+        hint - largegates l-shape or line lead to 
+        get craft  relog: town  the sarn encampment
       
     
     
@@ -814,7 +814,7 @@
        
         maramoa: severtherighthand
         grigor: book
-        img:waypoint to   the ebony barracks
+        waypoint to   the ebony barracks
       
     
     
@@ -825,8 +825,8 @@
        
         maramoa: severtherighthand
         grigor: book
-        color:ffffbuygems in img:hideout library gems || lilly: afixtureoffate   only shows with imported pob
-        img:waypoint to   the ebony barracks
+        :fbuygems in hideout library gems  lilly: afixtureoffate   
+        waypoint to   the ebony barracks
       
     
     
@@ -838,10 +838,10 @@
         
       
        
-        follow road get img:waypoint
-        go far img: for img:lab trial
+        follow road get waypoint
+        go far  for lab trial
          may require far ↗ detour
-        color:ccffrelog: town  the sarn encampment
+        relog: town  the sarn encampment
       
     
     
@@ -850,7 +850,7 @@
         
       
        
-        img:waypoint to   the imperial gardens
+        waypoint to   the imperial gardens
       
     
     
@@ -860,7 +860,7 @@
       
        
         go ↖ to   the library
-        quest-check: afixtureoffate  this is a hidden routing-check
+        !quest!-check: afixtureoffate  this is a hidden routing-check
       
     
     
@@ -869,9 +869,9 @@
         
       
        
-        get img:waypoint || find loose candle
+        get waypoint  find loose candle
         enter   the archives
-        quest-check: afixtureoffate  this is a hidden routing-check
+        !quest!-check: afixtureoffate  this is a hidden routing-check
       
     
     
@@ -880,11 +880,11 @@
         
       
        
-        find x img:quest quest:goldenpage
+        find x !quest! goldenpage
         hint - move through area clockwise
-        hint - img:craft: candle in a narrow corridor
-        color:ccffrelog: town  the sarn encampment
-        quest-check: afixtureoffate  this is a hidden routing-check
+        hint - craft: candle in a narrow corridor
+        relog: town  the sarn encampment
+        !quest!-check: afixtureoffate  this is a hidden routing-check
       
     
     
@@ -894,8 +894,8 @@
       
        
         get some currency
-        img:waypoint to   the library
-        quest-check: afixtureoffate  this is a hidden routing-check
+        waypoint to   the library
+        !quest!-check: afixtureoffate  this is a hidden routing-check
       
     
     
@@ -905,8 +905,8 @@
       
        
         siosa: afixtureoffate
-        img:waypoint to   the imperial gardens
-        quest-check: afixtureoffate  this is a hidden routing-check
+        waypoint to   the imperial gardens
+        !quest!-check: afixtureoffate  this is a hidden routing-check
       
     
     
@@ -915,9 +915,9 @@
         
       
        
-        early option: img:lab normallab
+        early option: lab normallab
         hint - build-dependent nd reminder later
-        hint - img:waypoint to color:fectown enter labyrinthairlock  aspirants' plaza
+        hint - waypoint to ctown enter labyrinthairlock  aspirants' plaza
         follow wagons to   the sceptre of god
       
     
@@ -927,8 +927,8 @@
         no
       
        
-        follow road activate img:waypoint
-        early option: img:lab normallab
+        follow road activate waypoint
+        early option: lab normallab
          build-dependent nd reminder later
         follow wagons to   the sceptre of god
       
@@ -936,25 +936,25 @@
     
       enter   the upper sceptre of god
       hint - main area is circular
-      hint - img:arena stairs can spawn every \ub
+      hint -  stairs can spawn every \ub
     
     
-      enter img:arena towerrooftop lvl:
+      enter  towerrooftop lvl:
        same layout go ↗ after scion cage
       kill dominus enter   the aqueduct
     
   
   
     
-      enter town img:town  highgate
+      enter town town  highgate
     
     
       go ↙ to   the dried lake
     
     
-      kill voll for quest:banner lvl:
-       look for a img:help -icon
-      color:ccffrelog: town  highgate
+      kill voll for banner lvl:
+       look for a help -icon
+      relog: town  highgate
     
     
       enter   the mines level 
@@ -965,7 +965,7 @@
         
       
        
-        find img:craft || enter   the mines level 
+        find craft  enter   the mines level 
          semi-linear mostly ↖
       
     
@@ -980,34 +980,34 @@
       
     
     
-      free img:quest quest:deshret || enter   the crystal veins
+      free !quest! deshret  enter   the crystal veins
       hint - solution: long straights + \ub turns
-      hint - but img:quest quest:deshret can also be in dead ends
+      hint - but !quest! deshret can also be in dead ends
     
     
-      find img:waypoint: town img:town  highgate
+      find waypoint: town town  highgate
     
     
       tasuni: book
       oyun: breakingtheseal
-      regular option: img:lab normallab
-      img:waypoint to   the crystal veins
+      regular option: lab normallab
+      waypoint to   the crystal veins
     
     
       enter   daresso's dream
     
     
       find & enter   the grand arena
-      hint - img:arena start & img:arena exit: opposite corners
+      hint -  start &  exit: opposite corners
       hint - go ↗ and/or straight if possible
     
     
-      kill daresso for quest:eye
+      kill daresso for eye
        go ↖ whenever possible
-      img:portal to town
+      portal to town
     
     
-      img:waypoint to   crystal veins
+      waypoint to   crystal veins
       enter   kaom's dream
     
     
@@ -1015,12 +1015,12 @@
        go ↗ then follow bridges/stairs
     
     
-      kill kaom for quest:eye || img:portal to town  highgate
+      kill kaom for eye  portal to town  highgate
        if bend on the right go ↖. else ↗
     
     
-      img:waypoint to   the crystal veins
-      talk to img:quest lady dialla
+      waypoint to   the crystal veins
+      talk to !quest! lady dialla
       enter   the belly of the beast level 
     
     
@@ -1028,46 +1028,46 @@
        follow the zone. go ← if possible
     
     
-      kill piety || enter   the harvest
-      hint - relatively you are → and img:arena color:ffffffis ←
+      kill piety  enter   the harvest
+      hint - relatively you are → and  :is ←
       hint - go straight as long as possible
     
     
       kill doedremaligaroshav
-      img:quest piety || kill malachai lvl:
-      img:portal to town  highgate
+      !quest! piety  kill malachai lvl:
+      portal to town  highgate
     
     
       dialla: theeternalnightmare
       enter   the ascent
     
     
-      activate img:quest quest:lever enter   the slave pens
-       go img: follow ↖ cart tracks go img:
+      activate !quest! lever enter   the slave pens
+       go  follow ↖ cart tracks go 
     
   
   
     
       follow ↙ edge kill overseer
       hint - find corridor with gallows
-      hint - loop clockwise to reach img:arena exit
-      enter town img:town  overseer's tower
+      hint - loop clockwise to reach  exit
+      enter town town  overseer's tower
     
     
       lani: ring
       enter   the control blocks
     
     
-      go ↖ find img:quest quest:miasmeter
-      go ↗ kill casticus for quest:e
-      go img: enter   oriath square
+      go ↖ find !quest! miasmeter
+      go ↗ kill casticus for e
+      go  enter   oriath square
     
     
-      go ↗ to img:quest   the templar courts
+      go ↗ to !quest!   the templar courts
     
     
       enter   lvl:  the chamber of innocence
-      hint - img:arena start & img:arena exit: adjacent corners
+      hint -  start &  exit: adjacent corners
       hint - go ↗ to main hall then ↙
     
     
@@ -1076,11 +1076,11 @@
         
       
        
-        follow img: edge kill avarius
-        hint - to find img:arena go ↘ when edge points ↓
-        hint - img:craft: large corridor along ↓ edge
+        follow  edge kill avarius
+        hint - to find  go ↘ when edge points ↓
+        hint - craft: large corridor along ↓ edge
         hint - high exp zone farm level: -
-        img:quest bannon || enter b  torched courts
+        !quest! bannon  enter b  torched courts
       
     
     
@@ -1089,29 +1089,29 @@
         no
       
        
-        follow img: edge kill avarius
-         to find img:arena go ↘ when edge points ↓
+        follow  edge kill avarius
+         to find  go ↘ when edge points ↓
          high exp zone farm level: -
         enter b  torched courts
       
     
     
       enter b  the ruined square
-      hint - img:arena start & img:arena exit: adjacent corners
+      hint -  start &  exit: adjacent corners
       hint - go ↗ to main hall then ↙
     
     
-      go ↙ then img: for img:waypoint
+      go ↙ then  for waypoint
       enter   the ossuary
     
     
-      find img:quest quest:signofpurity
-      hint - follow ↓ edge from the img:arena start
+      find !quest! signofpurity
+      hint - follow ↓ edge from the  start
       hint - if zone ends → follow other edge
-      use color:ccfflever enter b  ruined square
+      use lever enter b  ruined square
     
     
-      go ↙ to fountain place img:portal
+      go ↙ to fountain place portal
       go ↓ to   the reliquary
     
     
@@ -1120,9 +1120,9 @@
         
       
        
-        find x img:quest quest:torment near corners
-         img:craft near one of the img:quest quest:torments
-        img:waypoint to town img:town  overseer's tower
+        find x !quest! torment near corners
+         craft near one of the !quest! torments
+        waypoint to town town  overseer's tower
       
     
     
@@ -1131,21 +1131,21 @@
         no
       
        
-        find x img:quest quest:torment near corners
-        img:waypoint to town img:town  overseer's tower
+        find x !quest! torment near corners
+        waypoint to town town  overseer's tower
       
     
     
-      lani: color:feutil.flask || jewel || book
+      lani: util.flask  jewel  book
       vilenta: book
-      enter img:portal to b  the ruined square
+      enter portal to b  the ruined square
     
     
       go ↖ to   the cathedral rooftop
     
     
       go ↖ kill kitava
-      img:quest lilly: town  lioneye's watch
+      !quest! lilly: town  lioneye's watch
     
   
   
@@ -1155,7 +1155,7 @@
         
       
        
-        talk to img:quest lilly
+        talk to !quest! lilly
         enter   the coast
       
     
@@ -1165,23 +1165,23 @@
         no
       
        
-        color:ffffbuygems in img:hideout || lilly: fallenfromgrace   only shows with imported pob
-        img:waypoint to town img:town || lilly: fallenfromgrace   only shows with imported pob  lioneye's watch
+        :fbuygems in hideout  lilly: fallenfromgrace   
+        waypoint to town town  lilly: fallenfromgrace     lioneye's watch
         enter   the coast
       
     
     
-      go → / ↗ for img:waypoint || enter   mud flats
-       if right img:arena color:ffffffedge goes far ↘ go far ↓
+      go → / ↗ for waypoint  enter   mud flats
+       if right  :edge goes far ↘ go far ↓
     
     
-      go → kill queen for quest:eye
-       if you hit color:ccffzone-edge follow it
+      go → kill queen for eye
+       if you hit zone-edge follow it
       go ↖ enter   the karui fortress
-       if color:ccffedge was beach go ↙ instead
+       if edge was beach go ↙ instead
     
     
-      go ↗ to img:arena color:ffffff|| kill tukohama
+      go ↗ to  : kill tukohama
       go ↗ to   the ridge
     
     
@@ -1190,10 +1190,10 @@
         
       
        
-        activate the img:waypoint
-        optional: img:quest belt/amu: img:waypoint to   the coast
-         find img:quest quest:script in img:arena   tidal island
-        img:portal to town  lioneye's watch
+        activate the waypoint
+        optional: !quest! belt/amu: waypoint to   the coast
+         find !quest! script in    tidal island
+        portal to town  lioneye's watch
       
     
     
@@ -1212,7 +1212,7 @@
       
        
         kill everything
-        color:ccffrelog: town  lioneye's watch
+        relog: town  lioneye's watch
       
     
     
@@ -1222,13 +1222,13 @@
       
        
         lilly: fallenfromgrace
-        optional: bestel: belt/amu for quest:manuscript
+        optional: bestel: belt/amu for manuscript
         tarkleigh: book  tukohama
-        img:waypoint to   the ridge
+        waypoint to   the ridge
       
     
     
-      check img:waypoint pos. relative to img:arena
+      check waypoint pos. relative to 
       hint - if above: go far ↗ then ↖
       hint - if left: go far ↙ then ↖
       enter   the lower prison
@@ -1239,10 +1239,10 @@
         
       
        
-        get img:lab || enter  :  shavronne's tower
-        hint - check for color:ccffmap-icons near img:waypoint
-        hint - if img:lab trial is ↗ the img:arena exit is →
-        hint - if img:arena exit is ↘ / ↓ img:lab is further ↓
+        get lab  enter  :  shavronne's tower
+        hint - check for map-icons near waypoint
+        hint - if lab trial is ↗ the  exit is →
+        hint - if  exit is ↘ / ↓ lab is further ↓
       
     
     
@@ -1252,14 +1252,14 @@
       
        
         enter  :  shavronne's tower
-        hint - check for color:ccffmap-icons near img:waypoint
-        hint - if img:lab trial is ↗ the img:arena exit is →
-        hint - else: check if img:arena exit is ↘ / ↓ of img:waypoint
+        hint - check for map-icons near waypoint
+        hint - if lab trial is ↗ the  exit is →
+        hint - else: check if  exit is ↘ / ↓ of waypoint
       
     
     
-      kill shav&brutus || enter   prisoner's gate
-       img:arena stairs often in adjacent corners
+      kill shav&brutus  enter   prisoner's gate
+        stairs often in adjacent corners
        either direct path or loop around
     
     
@@ -1272,7 +1272,7 @@
       
        
         follow road to   the riverways
-         img:craft: follow side path marked by
+         craft: follow side path marked by
          torch on the road
       
     
@@ -1286,23 +1286,23 @@
       
     
     
-      follow road get img:waypoint
+      follow road get waypoint
       go ↖ enter   the wetlands
        follow trail between  pillars
     
     
       follow ← edge kill ryslatha
-       rarely the img:arena arena can be ↗
-      img:portal to town  lioneye's watch
+       rarely the  arena can be ↗
+      portal to town  lioneye's watch
     
     
-      img:waypoint to   prisoner's gate
+      waypoint to   prisoner's gate
     
     
-      find side passage || kill abberath
+      find side passage  kill abberath
       hint - ledge next to road leads to passage
-      hint - follow passage wall find img:arena arena
-      color:ccffrelog: town  lioneye's watch
+      hint - follow passage wall find  arena
+      relog: town  lioneye's watch
     
     
        
@@ -1311,8 +1311,8 @@
       
        
         bestel: book  abberath
-        tarkleigh: helmet || book  shav || ryslatha
-        img:waypoint to   the riverways
+        tarkleigh: helmet  book  shav  ryslatha
+        waypoint to   the riverways
       
     
     
@@ -1322,8 +1322,8 @@
       
        
         bestel: book  abberath
-        tarkleigh: book || helmet || book  tukohama || shav || ryslatha
-        img:waypoint to   the riverways
+        tarkleigh: book  helmet  book  tukohama  shav  ryslatha
+        waypoint to   the riverways
       
     
     
@@ -1335,7 +1335,7 @@
       follow cliff ↘ to   the cavern of anger
     
     
-      take img:quest quest:flag || enter   the beacon
+      take !quest! flag  enter   the beacon
        follow → / ↘ edge if possible
     
     
@@ -1344,8 +1344,8 @@
         
       
        
-        go ↗ get img:craft push  img:quest quest:carts
-        light img:quest quest:beacon burn img:quest quest:flag
+        go ↗ get craft push  !quest! carts
+        light !quest! beacon burn !quest! flag
         weylam:   the brine king's reef
       
     
@@ -1355,20 +1355,20 @@
         no
       
        
-        go ↗ push  img:quest quest:fuelcarts
-        light img:quest quest:beacon burn img:quest quest:flag
+        go ↗ push  !quest! fuelcarts
+        light !quest! beacon burn !quest! flag
         weylam:   the brine king's reef
       
     
     
-      find img:arena arena: is ↙ of img:waypoint blocked?
-      hint - : go far ↘. check → then img:
+      find  arena: is ↙ of waypoint blocked?
+      hint - : go far ↘. check → then 
       hint - no: go ↙ then ↖ once it opens up
-      kill tsoagoth || img:portal to town  lioneye's watch
+      kill tsoagoth  portal to town  lioneye's watch
     
     
       select pantheons
-      img:waypoint to town img:town  bridge encampment
+      waypoint to town town  bridge encampment
     
   
   
@@ -1381,8 +1381,8 @@
         
       
        
-        follow road up to broken img:waypoint
-        find img:quest quest:locket in nearby ruins
+        follow road up to broken waypoint
+        find !quest! locket in nearby ruins
         follow road to   the crossroads
       
     
@@ -1396,7 +1396,7 @@
       
     
     
-      follow road get img:waypoint
+      follow road get waypoint
       go ↘ to   the fellshrine ruins
     
     
@@ -1408,9 +1408,9 @@
         
       
        
-        complete img:lab trial || get img:craft
-        find img:arena sarcophagus & img:quest quest:map
-        img:portal to town  the bridge encampment
+        complete lab trial  get craft
+        find  sarcophagus & !quest! map
+        portal to town  the bridge encampment
       
     
     
@@ -1419,8 +1419,8 @@
         no
       
        
-        find img:arena sarcophagus & img:quest quest:map
-        img:portal to town  the bridge encampment
+        find  sarcophagus & !quest! map
+        portal to town  the bridge encampment
       
     
     
@@ -1429,8 +1429,8 @@
         
       
        
-        weylam: color:feutil.flask
-        img:waypoint to   the crossroads
+        weylam: util.flask
+        waypoint to   the crossroads
       
     
     
@@ -1439,26 +1439,26 @@
         no
       
        
-        img:waypoint to   the crossroads
+        waypoint to   the crossroads
       
     
     
       go ↖ to   the chamber of sins level 
     
     
-      reach central room get img:waypoint
-      use quest:map in img:quest quest:mapdevice
+      reach central room get waypoint
+      use map in !quest! mapdevice
       enter map  maligaro's sanctum
     
     
-      kill maligaro for quest:venom
+      kill maligaro for venom
        follow edge to find bridges
-      img:portal to   chamber of sins level 
+      portal to   chamber of sins level 
     
     
-      silk: quest:obsidiankey
+      silk: obsidiankey
       enter   the chamber of sins level 
-       the img:waypoint points to the exit
+       the waypoint points to the exit
     
     
        
@@ -1466,10 +1466,10 @@
         
       
        
-        complete img:lab trial || get img:craft
+        complete lab trial  get craft
          go ↘ if possible else ←
-        open img:quest color:ccffpassage to   the den
-         try far ↙ of img:lab else far ↗
+        open !quest! passage to   the den
+         try far ↙ of lab else far ↗
       
     
     
@@ -1478,43 +1478,43 @@
         no
       
        
-        find img:lab for orientation:
+        find lab for orientation:
          go ↘ if possible else ←
-        open img:quest color:ccffpassage to   the den
-         try far ↙ of img:lab else far ↗
+        open !quest! passage to   the den
+         try far ↙ of lab else far ↗
       
     
     
       enter   the ashen fields
     
     
-      early option: img:lab cruellab
+      early option: lab cruellab
        another reminder later
       go ↙ kill greust
       enter   the northern forest
     
     
       go ↙ then ↖ along edge
-       set img:portal if you find img:arena dreadthicket
+       set portal if you find  dreadthicket
       enter   the causeway
     
     
-      go img: / ← as much as possible
-      take img:quest quest:star enter   the vaal city
+      go  / ← as much as possible
+      take !quest! star enter   the vaal city
     
     
-      go ↖ || img:waypoint to town img:town  bridge encampment
-      hint - color:ccffcliff? follow. go around the wall ↗
-      hint - long corners mark img:waypoint go around ←
+      go ↖  waypoint to town town  bridge encampment
+      hint - cliff? follow. go around the wall ↗
+      hint - long corners mark waypoint go around ←
     
     
       weylam: book  star
-      eramir: book || helena: boots  greust || maligaro
-      img:waypoint / img:portal to   the northern forest
+      eramir: book  helena: boots  greust  maligaro
+      waypoint / portal to   the northern forest
     
     
       find & enter   the dread thicket
-       usually ↙ of img:waypoint or along ← edge
+       usually ↙ of waypoint or along ← edge
     
     
        
@@ -1522,9 +1522,9 @@
         
       
        
-        find x img:quest quest:firefly & img:craft
-        find img:arena den kill gruthkul
-        img:portal to town  the bridge encampment
+        find x !quest! firefly & craft
+        find  den kill gruthkul
+        portal to town  the bridge encampment
       
     
     
@@ -1533,18 +1533,18 @@
         no
       
        
-        find x img:quest quest:firefly
-        find img:arena den kill gruthkul
-        img:portal to town  the bridge encampment
+        find x !quest! firefly
+        find  den kill gruthkul
+        portal to town  the bridge encampment
       
     
     
       eramir: book  gruthkul
-      regular option: img:lab cruellab
-      img:waypoint to   the vaal city
+      regular option: lab cruellab
+      waypoint to   the vaal city
     
     
-      talk to img:quest yeena
+      talk to !quest! yeena
       enter   the temple of decay level 
     
     
@@ -1558,9 +1558,9 @@
         
       
        
-        find img:craft || kill arakaali
+        find craft  kill arakaali
         hint - floor +: rot. z-pattern
-        hint - floor : follow img: edge
+        hint - floor : follow  edge
         enter   the sarn ramparts
       
     
@@ -1572,7 +1572,7 @@
        
         find & kill arakaali
         hint - floor +: rot. z-pattern
-        hint - floor : follow img: edge
+        hint - floor : follow  edge
         enter   the sarn ramparts
       
     
@@ -1598,7 +1598,7 @@
        
         find & kill kill doedre
          try: far ↙ far ↘ or far ↗
-        get img:craft || go → to   the quay
+        get craft  go → to   the quay
       
     
     
@@ -1613,45 +1613,45 @@
       
     
     
-      follow water find img:quest quest:ankh
-      search far ↓ for img:arena res.site
-       img:quest clarissa || kill tolman
+      follow water find !quest! ankh
+      search far ↓ for  res.site
+       !quest! clarissa  kill tolman
       go far → to   the grain gate
     
     
-      follow color:aquadeadguard to next color:ccffsection
-      find + open hidden grate: color:reddon'tenter
-      kill gemlinglegion near a img:help -icon
-       either this or next color:aquadead-guard color:ccffsection
-      enter img:arena color:aquagrate to   hidden underbelly
+      follow :aquadeadguard to next section
+      find + open hidden grate: :reddon'tenter
+      kill gemlinglegion near a help -icon
+       either this or next :aquadead-guard section
+      enter  :aquagrate to   hidden underbelly
     
     
-      follow ← edge to color:ccff-waysplit place img:portal
+      follow ← edge to -waysplit place portal
       follow !same! edge to   solaris concourse
     
     
       enter   solaris temple level 
-      hint - search the far img: edge
+      hint - search the far  edge
       hint - if lost follow channel upstream
     
     
-      follow img: edge get img:waypoint
-      img:waypoint to town img:town  sarn encampment
+      follow  edge get waypoint
+      waypoint to town town  sarn encampment
     
     
-      enter img:portal to   hidden underbelly
+      enter portal to   hidden underbelly
       follow rd corridor to   bath house
     
     
-      place img:portal
+      place portal
       go → to   lunaris concourse
     
     
-      go ↗ activate the img:waypoint
-      img:waypoint to town img:town  sarn encampment
+      go ↗ activate the waypoint
+      waypoint to town town  sarn encampment
     
     
-      enter img:portal to   bath house
+      enter portal to   bath house
     
     
        
@@ -1659,9 +1659,9 @@
         
       
        
-        complete img:lab || enter   high gardens
-        hint - check ← / ↖ / img: zone corners.
-        hint - note: img:arena exit you used is the → corner
+        complete lab  enter   high gardens
+        hint - check ← / ↖ /  zone corners.
+        hint - note:  exit you used is the → corner
       
     
     
@@ -1671,19 +1671,19 @@
       
        
         find & enter   high gardens
-        hint - check ← / ↖ / img: zone corners.
-        hint - note: img:arena exit you used is the → corner
+        hint - check ← / ↖ /  zone corners.
+        hint - note:  exit you used is the → corner
       
     
     
-      find img:arena arena kill yugul
-      color:ccffrelog: town  sarn encampment
+      find  arena kill yugul
+      relog: town  sarn encampment
     
     
       maramoa: book  gemling legion
       hargan: ring book  doedre yugul
       clarissa: book  tolman
-      img:waypoint   solaris temple level 
+      waypoint   solaris temple level 
     
     
       go ↖ to   solaris temple level 
@@ -1694,10 +1694,10 @@
         
       
        
-        kill dawn for quest:sunorb
+        kill dawn for sunorb
          if zone leads far ↓ / ↙ follow the
-         edge left of img:arena. else: the right edge.
-        get img:craft || img:portal to town  sarn encampment
+         edge left of . else: the right edge.
+        get craft  portal to town  sarn encampment
       
     
     
@@ -1706,21 +1706,21 @@
         no
       
        
-        kill dawn for quest:sunorb
+        kill dawn for sunorb
          if zone leads far ↓ / ↙ follow the
-         edge left of img:arena. else: the right edge.
-        img:portal to town  sarn encampment
+         edge left of . else: the right edge.
+        portal to town  sarn encampment
       
     
     
-      img:waypoint to   lunaris concourse
+      waypoint to   lunaris concourse
     
     
       go ↖ to   lunaris temple level 
     
     
       enter   lunaris temple level 
-      hint - initial color:ccffhalls point ↖ or ↗
+      hint - initial halls point ↖ or ↗
       hint - follow carpets + that direction
     
     
@@ -1729,10 +1729,10 @@
         
       
        
-        kill dusk for quest:moonorb
-        hint - follow: color:ccffstairsup then single flower-pot
-        hint - color:ccfflargegates roughly in line lead to img:arena
-        get img:craft || img:portal to town  sarn encampment
+        kill dusk for moonorb
+        hint - follow: stairsup then single flower-pot
+        hint - largegates roughly in line lead to 
+        get craft  portal to town  sarn encampment
       
     
     
@@ -1741,20 +1741,20 @@
         no
       
        
-        kill dusk for quest:moonorb
-        hint - follow: color:ccffstairsup then single flower-pot
-        hint - color:ccfflargegates roughly in line lead to img:arena
-        img:portal to town  sarn encampment
+        kill dusk for moonorb
+        hint - follow: stairsup then single flower-pot
+        hint - largegates roughly in line lead to 
+        portal to town  sarn encampment
       
     
     
-      img:waypoint to   lunaris concourse
+      waypoint to   lunaris concourse
     
     
       go ↘ to   harbour bridge
     
     
-      go ↗ to img:arena skyshrine lvl:+
+      go ↗ to  skyshrine lvl:+
       kill solaris&lunaris
       enter   the blood aqueduct
     
@@ -1762,21 +1762,21 @@
   
     
       farm level: -
-      enter town img:town  highgate
+      enter town town  highgate
       enter   the descent
     
     
       find & enter   the vastiri desert
-       section : go ↗ || rest: linear
+       section : go ↗  rest: linear
     
     
-      go → activate img:waypoint
-      find img:quest quest:blade in circle of pillars
-       usually near img:waypoint or far ↙ of img:waypoint
-      go img: to   the foothills
+      go → activate waypoint
+      find !quest! blade in circle of pillars
+       usually near waypoint or far ↙ of waypoint
+      go  to   the foothills
     
     
-      go ↗ activate the img:waypoint
+      go ↗ activate the waypoint
       enter   the boiling lake
     
     
@@ -1785,8 +1785,8 @@
         
       
        
-        go ↗ kill basilisk for quest:acid
-        get img:craft || color:ccffrelog: town  highgate
+        go ↗ kill basilisk for acid
+        get craft  relog: town  highgate
       
     
     
@@ -1795,31 +1795,31 @@
         no
       
        
-        go ↗ kill basilisk for quest:acid
-        color:ccffrelog: town  highgate
+        go ↗ kill basilisk for acid
+        relog: town  highgate
       
     
     
       petarus: weapon/offhand
-      talk to img:quest sin
-      petarus: quest:bottledstorm
-      img:waypoint to   the vastiri desert
+      talk to !quest! sin
+      petarus: bottledstorm
+      waypoint to   the vastiri desert
     
     
       go ↗ to   the oasis
     
     
-      find img:arena sandpit kill shakari
+      find  sandpit kill shakari
        search along the → zone-edge
-      color:ccffrelog: town  highgate
+      relog: town  highgate
     
     
       irasha: book
-      img:waypoint to   the foothills
+      waypoint to   the foothills
     
     
-      optional: img:quest respecpoints
-       kill boulderback for quest:calendar
+      optional: !quest! respecpoints
+       kill boulderback for calendar
       go ↖ to   the tunnel
     
     
@@ -1828,7 +1828,7 @@
         
       
        
-        img:lab trial & img:craft: side path with img:help
+        lab trial & craft: side path with help
         follow main path to   the quarry
       
     
@@ -1842,9 +1842,9 @@
       
     
     
-      go ↖ get img:waypoint || search ↗ for an img:arena exit
-      if img:arena shrine: kill garukhan for img:quest quest:feather
-       then go ← along edge to img:arena therefinery
+      go ↖ get waypoint  search ↗ for an  exit
+      if  shrine: kill garukhan for !quest! feather
+       then go ← along edge to  therefinery
       otherwise enter   the refinery
     
     
@@ -1853,10 +1853,10 @@
         
       
        
-        pick img: exit: go ↖ then ↗
-         img:craft: tracks end in a grate
-        kill adus for img:quest quest:powder
-        color:ccffrelog: town  highgate
+        pick  exit: go ↖ then ↗
+         craft: tracks end in a grate
+        kill adus for !quest! powder
+        relog: town  highgate
       
     
     
@@ -1865,21 +1865,21 @@
         no
       
        
-        pick img: exit: go ↖ then ↗
-        kill adus for img:quest quest:powder
-        color:ccffrelog: town  highgate
+        pick  exit: go ↖ then ↗
+        kill adus for !quest! powder
+        relog: town  highgate
       
     
     
-      quest:feather? irasha: book
-      optional: petarus: respecs for quest:calendar
-      img:waypoint to   the quarry
+      feather? irasha: book
+      optional: petarus: respecs for calendar
+      waypoint to   the quarry
     
     
-      talk to img:quest sin
-      if you didn't find img:arena shrine:
+      talk to !quest! sin
+      if you didn't find  shrine:
       hint - search ← / ↙ kill garukhan
-      hint - color:ccffrelog || img:quest irasha || img:waypoint to color:fecquarry
+      hint - relog  !quest! irasha  waypoint to cquarry
       enter   the belly of the beast
     
     
@@ -1889,9 +1889,9 @@
       enter   the rotting core
     
     
-      take nd path img: to img:arena blackcore
-      img:quest sin || clear color:ccffsub-areas || img:quest sin
-      kill trinity || img:quest lilly: town  oriath docks
+      take nd path  to  blackcore
+      !quest! sin  clear sub-areas  !quest! sin
+      kill trinity  !quest! lilly: town  oriath docks
     
   
   
@@ -1899,17 +1899,17 @@
       enter   the cathedral rooftop
     
     
-      go img: to img:arena apex kill plaguewing
+      go  to  apex kill plaguewing
       go ↘ to   the ravaged square
     
     
-      go ↘ to fountain place img:portal
-      go → to bridge follow alley img:
-      get img:waypoint || go ↘ to   torched courts
+      go ↘ to fountain place portal
+      go → to bridge follow alley 
+      get waypoint  go ↘ to   torched courts
     
     
       enter   desecrated chambers
-       - img:arena start & img:arena exit: adjacent corners
+       -  start &  exit: adjacent corners
        - go ↗ to main hall then ↙
     
     
@@ -1918,10 +1918,10 @@
         
       
        
-        follow img: edge kill avarius
-        hint - to find img:arena go ↘ when edge points ↓
-        hint - img:craft: large corridor along ↓ edge
-        take quest:staff || img:waypoint to town img:town  oriath docks
+        follow  edge kill avarius
+        hint - to find  go ↘ when edge points ↓
+        hint - craft: large corridor along ↓ edge
+        take staff  waypoint to town town  oriath docks
       
     
     
@@ -1930,21 +1930,21 @@
         no
       
        
-        follow img: edge kill avarius
-        hint to find img:arena go ↘ when edge points ↓
-        take img:quest quest:staff || img:waypoint to town img:town  oriath docks
+        follow  edge kill avarius
+        hint to find  go ↘ when edge points ↓
+        take !quest! staff  waypoint to town town  oriath docks
       
     
     
-      talk to img:quest bannon
-      enter img:portal to   ravaged square
+      talk to !quest! bannon
+      enter portal to   ravaged square
     
     
       go ↙ to   control blocks
     
     
       go far ← kill vilenta
-      img:portal to town  oriath docks
+      portal to town  oriath docks
     
     
        
@@ -1952,9 +1952,9 @@
         no
       
        
-        lani: color:feflask || armor || book  plaguewing || avarius || vilenta
-        complete img:lab mercilesslab
-        img:waypoint to   ravaged square
+        lani: flask  armor  book  plaguewing  avarius  vilenta
+        complete lab mercilesslab
+        waypoint to   ravaged square
       
     
     
@@ -1963,8 +1963,8 @@
         
       
        
-        lani: color:feflask || armor || book   plaguewing || avarius || vilenta
-        img:waypoint   ravaged square
+        lani: flask  armor  book   plaguewing  avarius  vilenta
+        waypoint   ravaged square
       
     
     
@@ -1982,10 +1982,10 @@
         
       
        
-        follow edge complete img:lab trial
-        hint - img:lab is img: of img:quest quest:elixir opt: respecs
-        hint - img:craft is also near img:quest quest:elixir
-        color:ccffrelog: town  oriath docks
+        follow edge complete lab trial
+        hint - lab is  of !quest! elixir opt: respecs
+        hint - craft is also near !quest! elixir
+        relog: town  oriath docks
       
     
     
@@ -1994,13 +1994,13 @@
         
       
        
-        quest:elixir? weylam: respecs
-        complete img:lab mercilesslab
-        img:waypoint to   ravaged square
+        elixir? weylam: respecs
+        complete lab mercilesslab
+        waypoint to   ravaged square
       
     
     
-      talk to img:quest innocence
+      talk to !quest! innocence
       enter   the canals
     
     
@@ -2008,13 +2008,13 @@
       enter   feeding trough
     
     
-      go ↖ || talk to img:quest sin
-      enter img:arena altar kill kitava
-      img:quest sin || enter town  oriath docks
+      go ↖  talk to !quest! sin
+      enter  altar kill kitava
+      !quest! sin  enter town  oriath docks
     
     
       lani: book
-      img:quest lilly: endgametown  karui shores
+      !quest! lilly: endgametown  karui shores
     
     
        
@@ -2022,7 +2022,7 @@
         
       
        
-        activate the img:craft || talk to img:quest kirac
+        activate the craft  talk to !quest! kirac
         hint - type\/passives\inchat:skillpointcheck
         hint - theact-trackerguideendshere
       
